@@ -1,14 +1,12 @@
-import React from "react";
-import { HashRouter } from "react-router-dom";
-import AutoRoutes from "./AutoRoutes.jsx";
+import React from 'react'
 
-export default function App() {
+function App() {
   return (
-    <HashRouter>
-      <div style={{ padding: 20, fontSize: 18 }}>
-        ✅ App Mounted (if you see this, React is working)
-      </div>
-      <AutoRoutes />
-    </HashRouter>
-  );
+    <div>
+      <h1>Welcome to SpectroModel</h1>
+    </div>
+  )
 }
+
+export default App
+
