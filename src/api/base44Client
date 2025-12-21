@@ -1,0 +1,8 @@
+// Build-safe stub client.
+// Replace with real Base44 SDK client when you have the correct package name/credentials.
+
+export const base44 = {
+  async ping() {
+    return { ok: true, message: "base44Client stub" };
+  },
+};
